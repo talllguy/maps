@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Maps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" container="false">
+      <div class="container">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" target="_blank" href="index.html"><img src="http://www.gravatar.com/avatar/750d102c95a2ec988a9554189845c6ac.jpg?s=20"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="vacants.html">Vacants</a>
+            </li>
+            <li>
+              <a href="canton-parking.html">Canton Parking</a>
+            </li>
+            <li>
+              <a href="addresses.html">Addresses</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://elliottplack.me">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+		<div class="col-md-12 column">
+			<div class="page-header">
+				<h1>
+					Maps! <small>My portfolio</small>
+				</h1>
+			</div>
+			<p>
+				A sampling of some maps that I've made.
+			</p>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+            <a href="vacants.html"><img alt="300x200" src="img/vacants.png"></a>
+						<div class="caption">
+							<h3>
+								Baltimore Vacants
+							</h3>
+							<p>
+								A map showing vacant homes in Baltimore that gained <a href="http://technical.ly/baltimore/2012/08/09/15928-vacant-buildings-baltimore-city-map/">some notoriety</a>. The dataset is a 2012 snapshot of <a href="https://data.baltimorecity.gov/Housing-Development/Vacant-Buildings/qqcv-ihn5">the city's vacants data</a>. The data was scrubbed with OpenRefine.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="vacants.html">Go</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a href="canton-parking.html"><img alt="300x200" src="img/canton-parking.png"></a>
+						<div class="caption">
+							<h3>
+								Canton Off Street Parking
+							</h3>
+							<p>
+								Where to park your car when you can't find a spot on the street. Compiled from local knowledge and the <a href="https://www.facebook.com/groups/canton.neighbors.baltimore/" target="_blank">Canton Neighbors Facebook Group</a>.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="canton-parking.html">Go</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+            <a href="addresses.html"><img alt="300x200" src="img/address.png"></a>
+						<div class="caption">
+							<h3>
+								Baltimore Addresses
+							</h3>
+							<p>
+								Baltimore's address data translated for importing into OpenStreetMap. Part of the <a href="http://wiki.openstreetmap.org/w/index.php?title=Baltimore_Buildings_Import_2.0">Baltimore OpenStreetMap buildings and address import</a>.
+							</p>
+							<p>
+								<a class="btn btn-primary" href="addresses.html">Go</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
