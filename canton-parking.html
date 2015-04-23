@@ -12,7 +12,7 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Canton Off-Street Parking">
   <meta property="og:image" content="img/cantonparking-fb.png"/>
-  <meta property="og:description" content="A map of off-street parking location in Canton, a neighborhood in Baltimore, Md. The source data is crowd-sourced from a neighborhood Facebook group.">
+  <meta property="og:description" content="A map that visualizes off-street parking locations in Canton, a neighborhood in Baltimore, Maryland. The parking data is crowd-sourced from a neighborhood Facebook group.">
   <meta property="og:site_name" content="Maps">
   <meta property="article:author" content="http://talllguy.github.io/maps/img/cantonparking-fb.png">
 
@@ -22,12 +22,12 @@
   <meta name="twitter:site" content="@talllguy">
   <meta name="twitter:creator" content="@talllguy">
   <meta name="twitter:title" content="Canton Off-Street Parking">
-  <meta name="twitter:description" content="A map of off-street parking location in Canton, a neighborhood in Baltimore, Md. The source data is crowd-sourced from a neighborhood Facebook group.">
+  <meta name="twitter:description" content="A map that visualizes off-street parking locations in Canton, a neighborhood in Baltimore, Maryland. The parking data is crowd-sourced from a neighborhood Facebook group.">
   <meta name="twitter:image" content="http://talllguy.github.io/maps/img/cantonparking-tw.png">
 
   <!-- Schema.org markup for Google+ -->
   <meta itemprop="name" content="Canton Off-Street Parking">
-  <meta itemprop="description" content="A map of off-street parking location in Canton, a neighborhood in Baltimore, Md. The source data is crowd-sourced from a neighborhood Facebook group.">
+  <meta itemprop="description" content="A map that visualizes off-street parking locations in Canton, a neighborhood in Baltimore, Maryland. The parking data is crowd-sourced from a neighborhood Facebook group.">
   <meta itemprop="image" content="http://talllguy.github.io/maps/img/cantonparking-fb.png">
 
 	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
@@ -37,6 +37,7 @@
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -87,15 +88,37 @@
         </div>
       </div>
     </nav>
-		<div class="col-md-12 column">
-			<div class="page-header">
-				<h1>
-					Parking in Canton <small>can suck. Here's some help</small>
-				</h1>
-        <div class="container">
-          <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/talllguy.map-141vk8ye/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoidGFsbGxndXkiLCJhIjoiQU4zdXlIdyJ9.wGkUPqhITuNDLgnb5xNx7Q'></iframe>
-        </div>
-	</div>
+    <div class="container">
+    	<div class="row clearfix">
+    		<div class="col-md-12 column">
+    			<div class="row clearfix">
+    				<div class="col-md-12 column">
+              <div class="page-header">
+        				<h1>
+        					Canton Off-Street Parking <small>A few hints on finding a spot when the streets are full</small>
+        				</h1>
+              </div>
+    				</div>
+    			</div>
+    			<div class="row clearfix">
+    				<div class="col-md-12 column">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/talllguy.map-141vk8ye/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoidGFsbGxndXkiLCJhIjoiQU4zdXlIdyJ9.wGkUPqhITuNDLgnb5xNx7Q'></iframe>
+                </div>
+                <div class="panel-footer"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Legend: The colors of the icons indicate the relative risk of being towed from these locations with <span class="label label-danger">red</span> being risky to <span class="label label-success">green</span> being pretty safe.
+                  <p><span class="glyphicon glyphicon-flag" aria-hidden="true"></span><i>Map data herein is for informational use only. The author is not responsible for any innacuracy resulting in loss or towing.</i></p>
+                    <ul class="list-inline">
+                    <li><a href="https://github.com/talllguy/maps"><i class="fa fa-github"></i> Made on GitHub</li>
+                  </ul>
+                </div>
+              </div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
