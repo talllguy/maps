@@ -37,6 +37,7 @@
         var map = L.mapbox.map('map', 'talllguy.mn2nl595')
             .setView([39.2893, -76.5905], 12);
 
+        L.control.locate().addTo(map);
         L.control.fullscreen().addTo(map);
     </script>
 </body>
